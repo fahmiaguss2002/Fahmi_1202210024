@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color:aliceblue;
+}
+h2 {
+    text-align: center;
+    color: aqua;
+}
+p{
+    text-align: center;
+    color: black;
+    letter-spacing: normal;
+}
+h3 {
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: center;
+    color: forestgreen;
+    letter-spacing: normal;
+}
