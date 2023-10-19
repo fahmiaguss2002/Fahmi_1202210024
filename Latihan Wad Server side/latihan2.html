@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My selebriti</title>
+</head>
+<body>
+    <h1>apa yang dapat dilakukan javascript?</h1>
+    <img id="myImage" onclick="changeImage()" src ="gabby.jpg" width="700" height="700">
+    <p>Click the image to change image.</p>
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("rachel.jpg")){
+                image.src = "gabby.jpg";
+                
+             }  else {
+                image.src = "rachel.jpg";
+
+             } 
+        }
+    </script>
+</body>
+</html>
